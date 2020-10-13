@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/banco2"
+    tools:context=".activities.BauCua">
+
+    <FrameLayout
+        android:id="@+id/frameLayout3"
+        android:layout_width="138dp"
+        android:layout_height="27dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/backgroundframe"
+        android:paddingTop="3dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/tvtien"
+            android:layout_width="55dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/backgowndview"
+            android:gravity="center"
+            android:text="200" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="4dp"
+            android:src="@drawable/phinh" />
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/button-back"
+        android:layout_width="49dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/icon_back"
+
+        android:onClick="back"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="140dp"
+        android:layout_height="63dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="52dp"
+        android:background="@drawable/button_start"
+        android:onClick="lacxingau"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/xingau1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="416dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="72dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout3">
+
+        <ImageView
+            android:id="@+id/xingau2"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="155dp"
+            android:src="@drawable/hinhdongxingau" />
+
+        <ImageView
+            android:id="@+id/xingau3"
+            android:layout_width="60dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/hinhdongxingau" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/xingau1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/hinhdongxingau"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+    <GridView
+
+        android:id="@+id/gvbanco"
+        android:layout_width="355dp"
+        android:layout_height="282dp"
+        android:layout_marginTop="20dp"
+        android:horizontalSpacing="10dp"
+        android:numColumns="3"
+        android:verticalSpacing="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

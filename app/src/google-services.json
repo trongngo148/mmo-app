@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "996034857097",
+    "firebase_url": "https://tmmo-1dbf4.firebaseio.com",
+    "project_id": "tmmo-1dbf4",
+    "storage_bucket": "tmmo-1dbf4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:996034857097:android:578ef57e97a94188",
+        "android_client_info": {
+          "package_name": "com.mmoteam.twotmakemoney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "996034857097-j57kol5jrssdsh3ho6vbr9fqepdh2erh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mmoteam.twotmakemoney",
+            "certificate_hash": "e2b741f20f08084c10c20af7d44825acfa936124"
+          }
+        },
+        {
+          "client_id": "996034857097-eg0u5sdou7516fcqke29k4br7m36ar1h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXtog3D5KDed6t5W6k2YHCXB7DHMn06ek"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "996034857097-eg0u5sdou7516fcqke29k4br7m36ar1h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-8973557699399310~7745594743"
+    }
+  ],
+  "configuration_version": "1"
+}

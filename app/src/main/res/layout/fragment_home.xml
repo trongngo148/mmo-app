@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:windowSoftInputMode="stateHidden">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/main"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ViewFlipper
+                    android:id="@+id/view_flip"
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp" />
+
+                <LinearLayout
+                    android:id="@+id/offerWallsTopSpace"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:visibility="visible"
+                    android:orientation="vertical"
+                    android:background="@color/bg_color" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:id="@+id/offerWallsTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/space12"
+                            android:layout_marginBottom="@dimen/space12"
+                            android:paddingStart="@dimen/space16"
+                            android:paddingLeft="@dimen/space16"
+                            android:paddingEnd="@dimen/space0"
+                            android:paddingRight="@dimen/space0"
+                            android:text="@string/offerWalls"
+                            android:textColor="@color/trans_text_black"
+                            android:textSize="@dimen/text_size_16" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/space1"
+                            android:background="@color/bg_color" />
+
+                    </LinearLayout>
+
+                    <!--******* Offerwalls ***********-->
+                    <androidx.core.widget.NestedScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scrollbars="none">
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/offerwalls_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="303dp"
+                        android:clipToPadding="false"
+                        android:nestedScrollingEnabled="false"
+                        android:paddingTop="@dimen/space10" />
+                    </androidx.core.widget.NestedScrollView>
+
+                    <ProgressBar
+                        android:id="@+id/progressBarOfferwalls"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/space40"
+                        android:layout_marginBottom="@dimen/space40"
+                        android:indeterminateTint="@color/colorPrimary"
+                        android:visibility="gone" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="76dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/posterfi3" />
+
+                </LinearLayout>
+                <com.google.android.gms.ads.AdView
+                    xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/adView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentBottom="true"
+                    ads:adSize="BANNER"
+                    ads:adUnitId="@string/banner_ad_unit_id">
+                </com.google.android.gms.ads.AdView>
+
+                <LinearLayout
+                    android:id="@+id/offersTopSpace"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/space5"
+                    android:orientation="vertical"
+                    android:background="@color/bg_color" />
+
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <LinearLayout
+                        android:id="@+id/offersTitle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/trans_text_black"
+                            android:layout_marginTop="@dimen/space12"
+                            android:textSize="@dimen/text_size_16"
+                            android:paddingLeft="@dimen/space16"
+                            android:paddingStart="@dimen/space16"
+                            android:paddingRight="@dimen/space0"
+                            android:paddingEnd="@dimen/space0"
+                            android:layout_marginBottom="@dimen/space12"
+                            android:text="@string/api_offers"/>
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="1dp"
+                            android:background="@color/bg_color"/>
+
+                    </LinearLayout>
+
+                    <!--******* API Offers ***********-->
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/offers_list"
+                        android:nestedScrollingEnabled="false"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:clipToPadding="false"
+                        android:paddingTop="@dimen/space10" />
+
+
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        android:visibility="gone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/space40"
+                        android:layout_marginBottom="@dimen/space40"
+                        android:layout_gravity="center"
+                        android:indeterminateTint="@color/colorPrimary" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+</LinearLayout>

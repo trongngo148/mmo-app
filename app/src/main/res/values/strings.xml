@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">2TMMO</string>
+
+    <string name="placeholder"> ------ </string>
+
+    <string name="offerWalls">Danh Sách Dịch Vụ</string>
+    <string name="api_offers">API Offers</string>
+
+    <string name="offer_details">Offer Details</string>
+    <string name="complete_offer">COMPLETE OFFER</string>
+    <string name="complete_later">i\'ll Complete Later</string>
+    <string name="earn">Earn</string>
+    <string name="on_this_offer">on this Offer</string>
+    <string name="waiting_for_completion">Waiting for Completion ..</string>
+    <string name="checking_offer_status">Checking offer status..</string>
+
+    <string name="offer_completed">you have Completed this Offer</string>
+    <string name="offer_rejected">Offer Rejected</string>
+    <string name="offer_processing">We are Processing this Offer</string>
+
+    <string name="home">Home</string>
+    <string name="instructions">Hướng Dẫn</string>
+    <string name="refer">Mời Bạn &amp; Nhận Points</string>
+    <string name="redeem">Rút Tiền</string>
+    <string name="about">About Us</string>
+    <string name="transactions">Lịch sử giao dịch</string>
+    <string name="watchads">Xem Video</string>
+    <string name="share">Chia sẽ App</string>
+    <string name="rate_this_app">Đánh giá App</string>
+    <string name="policy">Chính sách bảo mật</string>
+    <string name="contact">Liên hệ với chúng tôi</string>
+
+    <string name="loading">Đang tải ..</string>
+    <string name="no_transactions">Không tìm thấy giao dịch nào !</string>
+    <string name="no_notification">Không có thông báo nào !</string>
+    <string name="nothing_found">Không tìm thấy gì ở đây !</string>
+
+    <string name="congratulations">Chúc mừng bạn !!</string>
+    <string name="successfull_received">Nhận thành công</string>
+    <string name="invitation_bonus_received">Tiền thưởng lời mời đã nhận</string>
+    <string name="refer_bonus_received">Tiền thưởng giới thiệu đã nhận được</string>
+
+
+    <string name="adnetwork_disabled">AdNetwork Disabled</string>
+    <string name="adnetwork_disabled_mesage">We have temporarly disabled this AdNetwork, please try again after some time</string>
+
+    <string name="success">Thành công</string>
+    <string name="rejected">Từ chối</string>
+    <string name="failed">Thất bại</string>
+    <string name="pending">Đang xử lý</string>
+
+    <string name="redeem_success_title"> Rút tiền thành công !</string>
+    <string name="redeem_recevied">Đổi yêu cầu nhận cho</string>
+    <string name="redeem_succes_message"> bạn có thể kiểm tra trạng thái đổi quà trong mục Giao Dịch</string>
+
+    <string name="error">Lỗi..</string>
+    <string name="enter_something">Vui lòng nhập nội dung nào đó</string>
+
+    <!--  Currency -->
+    <string name="app_currency">Points</string>
+
+    <string name="updating_balance">Đang cập nhật Points của bạn..</string>
+    <string name="update_balance">update Balance</string>
+
+    <!-- Share -->
+    <string name="share_text">Chào mọi người, đây là ứng dụng tuyệt vời mà tôi đã tìm thấy:</string>
+
+    <!-- Refer -->
+    <string name="invite">Mời Bạn Bè</string>
+    <string name="get_bonus">Nhận Bonus</string>
+    <string name="tap_to_copy">Nhấn để coppy</string>
+    <string name="refer_code">Mã của bạn là:</string>
+    <string name="placeholder_referer">Nhập mã bạn bè</string>
+    <string name="referDescription">Bạn và bạn của bạn điều nhận được</string>
+    <string name="refer_code_copied">Mã giới thiệu đã được chép vào Clipboard</string>
+
+    <string name="refer_text">bằng cách sử dụng mã giới thiệu của tôi:  </string>
+    <string name="self_refer">Bạn không thể tự giới thiệu bạn</string>
+    <string name="invalid_code">Mã không hợp lệ</string>
+    <string name="enter_valid_code">Vui lòng nhập mã hợp lệ</string>
+    <string name="choose_one">Chọn một</string>
+
+    <!-- Facebook -->
+    <string name="facebook_app_id">411880206066288</string>
+    <string name="fb_login_protocol_scheme">fb411880206066288</string>
+
+    <!-- ADMOB AppID -->
+    <string name="admob_appId" translatable="false">ca-app-pub-8973557699399310~7745594743</string>
+
+    <!-- ADMOB Banner -->
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-8973557699399310/5107645503</string>
+
+    <!-- ADMOB Interstitial -->
+    <string name="admob_interstitial_delay">5000</string>
+    <string name="interstitial_ad_unit_id" translatable="false">ca-app-pub-8973557699399310/8497501266</string>
+
+    <!--ADMOB video-->
+    <string name="reward_ad_unit_id" translatable="false">ca-app-pub-8973557699399310/6727240124</string>
+
+    <!--  General Texts  -->
+    <string name="click_back_again">Ẩn trở về lần nữa để thoát</string>
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="proceed">Tiến hành</string>
+    <string name="oops">Lỗi ..</string>
+    <string name="no_enough">Không đủ</string>
+    <string name="to">để</string>
+    <string name="get">Get</string>
+
+    <integer name="daily_checkin_timer_size">26</integer>
+    <string name="bonus_taken">Đã nhận tiền thưởng ..</string>
+    <string name="try_after">Hãy thử lại sau vài phút !!</string>
+    <string name="daily_reward_taken">Phần thưởng hàng ngày đã nhận \n\n Hãy nhận lại trong ..</string>
+    <string name="server_problem">Server bảo trì! Thử lại sau vài phút</string>
+
+    <string name="title_server_problem">Máy chủ không phản hồi !</string>
+    <string name="msg_server_problem">Có vẻ như máy chủ không phản hồi, hãy thử lại lần sau</string>
+
+    <string name="offerwall_not_loaded">Đang tải .. \n\n Vui lòng thử lại sau vài phút !!</string>
+
+    <!-- Navigation Drawer -->
+    <string name="navigation_drawer_opened">The navigation drawer is opened</string>
+    <string name="navigation_drawer_closed">The navigation drawer is closed</string>
+    <string name="tag_nav_drawer_main_entry">nav_drawer_main_entry</string>
+
+    <!-- Login And SignUp -->
+    <string name="settings_file">account</string>
+    <string name="settings_account_id">account_id</string>
+    <string name="settings_account_username">account_username</string>
+    <string name="settings_account_access_token">access_token</string>
+
+    <string name="processing">Đang xử lý ..</string>
+    <string name="please_wait">Chờ chút xíu</string>
+
+    <string name="update">Update</string>
+    <string name="update_app">Update App to Earn More</string>
+    <string name="update_app_description">Many more Earning Features Added.</string>
+
+    <string name="retry">Thử lại</string>
+    <string name="title_network_error">Không có mạng!</string>
+    <string name="msg_network_error">Xin vui lòng kiểm tra kết nối Internet của bạn!</string>
+    <string name="msg_account_blocked">Tài khoản này đã bị chặn bởi admin!!</string>
+    <string name="msg_no_such_user_in_bd">Không có người dùng trong data</string>
+    <string name="msg_password_reset_link_sent">Một thông báo có liên kết để thiết lập lại mật khẩu của bạn đã được gửi đến email của bạn.</string>
+
+    <string name="action_login">LOGIN</string>
+    <string name="action_signup">Sign Up</string>
+    <string name="title_activity_login">Đăng Nhập Tài Khoản</string>
+    <string name="title_activity_sign_up">Đăng Ký Tài Khoản</string>
+    <string name="action_continue">Continue</string>
+    <string name="action_forgot_password">Quên mật khẩu ?</string>
+
+    <string name="placeholder_password">Mật khẩu</string>
+    <string name="placeholder_login">Tên đăng nhập</string>
+    <string name="placeholder_fullname">Họ và Tên</string>
+    <string name="placeholder_email">Email</string>
+
+    <string name="error_field_empty">Các mục bắt buộc trống hoặc không hợp lệ</string>
+    <string name="error_wrong_format">Sai định dạng</string>
+    <string name="error_signin">Tên đăng nhập hoặc mật khẩu không chính xác</string>
+    <string name="error_login_taken">Tên người dùng đã được sử dụng</string>
+    <string name="error_email_taken">Email đã được đăng kí</string>
+    <string name="error_phone_taken">Số điện thoại đã được đăng kí</string>
+    <string name="please_login">Hãy đăng nhập ..</string>
+    <string name="error_email">Email không hợp lệ ..</string>
+    <string name="error_data_loading">Kiểm tra kết nối mạng...</string>
+    <string name="error_small_password">Ít nhất 6 kí tự</string>
+    <string name="error_small_username">Ít nhất 5 kí tự</string>
+
+
+    <string name="error_device_exists">Thiết bị đã đăng ký</string>
+    <string name="error_device_exists_description">Chúng tôi chỉ cho phép một Tài Khoản cho một thiết bị,vui lòng nhập tài khoản đã đăng ký của bạn...</string>
+
+    <!-- App INTRO Titles & Description -->
+    <string name="slide_1_title">Kiếm Voucher !</string>
+    <string name="slide_2_title">Vé Xem Phim</string>
+    <string name="slide_3_title">Món Ăn !</string>
+    <string name="slide_4_title">Du Lịch Thế Giới !</string>
+    <string name="slide_1_desc">Có cơ hội nhận Voucher trên các dịch vụ chúng tôi cung cấp !</string>
+    <string name="slide_2_desc">Có cơ hội nhận vé xem phim bên gia đình và người yêu !</string>
+    <string name="slide_3_desc">Giảm giá món ăn từ nhà hàng yêu thích của bạn một cách dễ dàng!</string>
+    <string name="slide_4_desc">Nhận vé giảm giá của bất kỳ phương tiện giao thông và du lịch thế giới!</string>
+
+    <!-- Instructions on How to use App -->
+    <string name="instructions_content" translatable="false">
+        <![CDATA[
+        <b>For Apps: </b><br/>
+        1. Chọn một ứng dụng để cài đặt từ một trong danh sách ứng dụng của chúng tôi.<br/>
+        2. Nhấp vào "Cài đặt" khi trên Google Play Store. <br/>
+        3. Đợi cho đến khi ứng dụng được cài đặt và mở ứng dụng.<br/>
+        4. Duyệt ứng dụng đã cài đặt trong khoảng 30 giây.<br/>
+        5. Nếu có một Nhiệm vụ cụ thể được đề cập khi chọn ứng dụng, (Ví dụ: Đăng ký, Đạt cấp 3, Duyệt trong 5 phút), hãy làm như vậy, nếu không hãy đóng ứng dụng.<br/>
+        6. Quay lại màn hình chính của ứng dụng và nhấn "Làm mới" nếu bạn chưa được thưởng.<br/>
+        7. Nếu bạn vẫn chưa nhận được, bạn sẽ nhận được Phần thưởng trong vòng 1-5 phút.<br/><br/>
+
+
+        &copy; 2019 <b> 2TMMO </b> by <b>EARNMONEY</b> ]]>
+    </string>
+
+    <!--<string name="videoAds">Xem Video Nhận Points</string>-->
+
+    <string name="title_home">Home</string>
+    <string name="title_pay">Payout</string>
+    <string name="title_notifi">Notification</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_history">History</string>
+
+    <string name="initializing">ĐANG NẠP VIDEO</string>
+    <string name="show">Phát</string>
+    <string name="load">Load</string>
+    <string name="rv">Video</string>
+    <string name="ow">Offerwall</string>
+    <string name="is">Interstitial</string>
+    <string name="version">sdk version</string>
+    <string name="rewarded_dialog_header">Video Rewarded</string>
+    <string name="rewarded_dialog_message">You have been rewarded</string>
+    <string name="rvButtonState">rvButtonState</string>
+    <string name="isButtonState">isButtonState</string>
+    <string name="owButtonState">owButtonState</string>
+
+</resources>

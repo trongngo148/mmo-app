@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+    <RelativeLayout
+        android:id="@+id/rellay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/grad">
+        <RelativeLayout
+            android:id="@+id/imgUser"
+            android:layout_width="wrap_content"
+            android:background="@drawable/circle_border"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="9dp"
+                android:padding="3dp"
+                android:src="@drawable/man"
+                android:background="@drawable/circle"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgUser"
+            android:text="-----"
+            android:textSize="30sp"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:id="@+id/username1"/>
+    </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rellay"
+                android:text="Họ Và Tên:"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="20dp"
+                android:textSize="15sp"
+                android:textColor="@color/headings"
+                android:id="@+id/hvaten"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-----"
+                android:layout_below="@id/hvaten"
+                android:layout_marginLeft="60dp"
+                android:textSize="18sp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/nav_bar_display_name1"
+                android:textColor="#000000"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey"
+                android:layout_below="@id/nav_bar_display_name1"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:id="@+id/view1"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view1"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:text="Email:"
+                android:textSize="15sp"
+                android:textColor="@color/headings"
+                android:id="@+id/emailpro"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/emailpro"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:text="-----"
+                android:id="@+id/nav_bar_display_email1"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/grey"
+                android:layout_below="@id/nav_bar_display_email1"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="35dp"
+                android:id="@+id/view2"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view2"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:text="Phone:"
+                android:textSize="15sp"
+                android:textColor="@color/headings"
+                android:id="@+id/phonepro"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/phonepro"
+                android:layout_marginLeft="60dp"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:text="-----"
+                android:id="@+id/nav_bar_display_phone1"/>
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nav_bar_display_phone1"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="78dp"
+        android:layout_marginLeft="78dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginRight="83dp"
+        android:background="@drawable/ironsource_button_shape"
+        android:padding="5dp"
+        android:text="LOGOUT" />
+
+
+
+
+
+
+
+    
+
+</RelativeLayout>

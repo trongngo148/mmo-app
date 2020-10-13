@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mmoteam.twotapp.activities.MainActivity">
+
+
+
+    <LinearLayout
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <include
+            android:id="@+id/tool_bar"
+            layout="@layout/tool_bar"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="1"/>
+        <LinearLayout
+            android:layout_weight="9"
+            android:layout_width="match_parent"
+            android:layout_height="0dp">
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <FrameLayout
+                    android:id="@+id/frame_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+
+                <!--<android.support.v4.view.ViewPager-->
+                    <!--android:id="@+id/pager"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--/>-->
+            </FrameLayout>
+
+        </LinearLayout>
+
+        <com.mmoteam.twotapp.utils.SlidingTabLayout
+            android:id="@+id/tabs"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/space50"
+            android:background="@color/colorPrimary"/>
+
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@color/white"
+            android:padding="@dimen/space1"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content">
+
+<!--            <com.google.android.gms.ads.AdView-->
+<!--                xmlns:ads="http://schemas.android.com/apk/res-auto"-->
+<!--                android:id="@+id/adView"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:layout_alignParentBottom="true"-->
+<!--                ads:adSize="BANNER"-->
+<!--                ads:adUnitId="@string/banner_ad_unit_id">-->
+<!--            </com.google.android.gms.ads.AdView>-->
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="?android:attr/windowBackground"
+            app:itemBackground="@color/bgBottomNavigation"
+            android:foreground="?attr/selectableItemBackground"
+            app:itemIconTint="@android:color/white"
+            app:itemTextColor="@android:color/white"
+            app:menu="@menu/navigation" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- The navigation drawer -->
+    <!--<include layout="@layout/navigation_drawer"/>-->
+
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
